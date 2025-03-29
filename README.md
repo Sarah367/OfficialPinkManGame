@@ -24,7 +24,7 @@ Pink Man is an engaging 2D game in which players navigate through eight main lev
   - Assets/Sprites : Holds all of the 2D art assets used throughout the game.
 
 ## Development Guide 
-  **All sprites, sound effects, animations, prefabs, and much more can be found at the Unity Asset Store.** 
+  ★ All sprites, sound effects, animations, prefabs, and much more can be found at the Unity Asset Store. ★
 ### Adding a new enemy type
   - Create/import a new enemy sprite into Assets/Sprites/.
   - Slice the sprite in the Sprite Editor if it's a sprite sheet.
