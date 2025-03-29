@@ -24,10 +24,29 @@ Pink Man is an engaging 2D game in which players navigate through eight main lev
   - Assets/Sprites : Holds all of the 2D art assets used throughout the game.
 
 ## Development Guide 
+  **All sprites, sound effects, animations, prefabs, and much more can be found at the Unity Asset Store.** 
 ### Adding a new enemy type
+  - Create/import a new enemy sprite into Assets/Sprites/.
+  - Slice the sprite in the Sprite Editor if it's a sprite sheet.
+  - Create a new prefab by dragging the enemy sprite into the desired scene.
+  - Add a **Rigidbody2D** and a **BoxCollider2D** for basic enemy mechanics.
+    - Rigidbody2D: Allows the enemy to respond to physics forces such as gravity and velocity. It is needed for collision       
+      detection.
+    - BoxCollider2D: Defines rectangle-shaped hitbox around object; allows collisions to be detected.
+  - Create a new script and include enemy behavior/movement logic.
+  - If you want to reuse the enemy throughout different scenes, make the enemy a **prefab**.
+    - Drag the enemy into Assets/Prefabs.
+    - You can now drag the prefab into any scene you like.
 ### Adding a new level
+  - Go to File in the top left corner and click "New Scene."
+  - Open the new scene and design your preferred layout via Tilemaps, objects, and prefabs.
+  - Add desired characters and enemies, as well as scripts to manipulate behavior/movement.
+  - Add the new scene to Build Settings by clicking on **File --> Build Settings --> Add Open Scenes**.
 ### Adding a new item
-  
+  - Import your new item into Assets/Sprites.
+  - Drag the sprite into your desired scene in order to create it as a GameObject.
+  - Implement scripts (if needed) that define the item's purpose.
+  - Remember to add Collider Components such as a Collider2D. 
 ## Feature Ideas
   - Implement a diverse set of enemies and new characters.
   - More engaging graphical elements such as an animated background.
