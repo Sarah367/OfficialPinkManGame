@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Trap
+  - Oranges
+  - Zombie
+  - Terrain
+  - Gap
+  - MegaOrange
+  - WoodenPlatform
+  - Fire
+  - FireTrap
+  - SpikesTrap
+  - RotatingSaw
+  - Kiwis
+  - Strawberry
+  - MegaStrawberry
+  - MegaKiwi
+  - SpikeHead
+  - Princess
+  - Knight
+  - PrincessItem
+  - Butterfly
+  - Boundary
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ice
+  - 
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
