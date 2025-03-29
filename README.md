@@ -46,7 +46,16 @@ Pink Man is an engaging 2D game in which players navigate through eight main lev
   - Import your new item into Assets/Sprites.
   - Drag the sprite into your desired scene in order to create it as a GameObject.
   - Implement scripts (if needed) that define the item's purpose.
-  - Remember to add Collider Components such as a Collider2D. 
+  - Remember to add Collider Components such as a Collider2D.
+    
+## How to Run the Game In Unity ###
+  - Have Unity Hub and Unity 2D installed on your computer.
+  - Clone the repo via Git.
+  - Once you have cloned the repo, navigate to Unity Hub.
+  - Go to "Add" and click "Add project from disk."
+  - Add the cloned folder.
+  - You can now play the game!
+    
 ## Feature Ideas
   - Implement a diverse set of enemies and new characters.
   - More engaging graphical elements such as an animated background.
@@ -55,14 +64,6 @@ Pink Man is an engaging 2D game in which players navigate through eight main lev
   - Design levels that reward smart/strategic movement and punish rushing through.
   - Introduce new mechanics such as limited health.
   - Build a shop that allows the player to buy powerups and other resources.
-### How to Run the Game In Unity ###
-  - Have Unity Hub and Unity 2D installed on your computer.
-  - Clone the repo via Git.
-  - Once you have cloned the repo, navigate to Unity Hub.
-  - Go to "Add" and click "Add project from disk."
-  - Add the cloned folder.
-  - You can now play the game!
-
 
 
  
